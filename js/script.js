@@ -7,12 +7,26 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente.btn")
+const nomeSortudo = aleatorio(nomes);
+const botaoIniciar = document.querySelector(".iniciar-btn");
+const telaIniciar = document.querySelector(".tela-btn");
 
 
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
 
+botaoIniciar.addEventListener('click',iniciarJogo)
+
+function iniciarJogo(){
+atual = 0;
+historiaFinal = ;
+telaInicial.style.display= 'none';
+caixaPerguntas.classList.remove("mostrar");
+caixaAlternativas.classList.remove("mostrar");
+caixaResultado.classList.remove("mostrar");
+mostraPergunta();
+}
 function mostraPergunta() {
     if(atual >= perguntas.length){
         mostraResultado();
