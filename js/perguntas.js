@@ -10,7 +10,8 @@ export const perguntas = [
                 texto: "Isso é maravilhoso!",
                 afirmacao: "Você ficou entusiasmado com as possibilidades e encarou a inovação com otimismo e curiosidade."
             }           
-        ]
+        ],
+        proxima: 1,
     },
     {
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre ela. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
@@ -23,7 +24,8 @@ export const perguntas = [
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: "Você preferiu confiar no seu próprio senso crítico e na troca de ideias humanas para construir seu conhecimento."
             }
-        ]
+        ],
+                proxima: 2,
     },
     {
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
@@ -36,7 +38,8 @@ export const perguntas = [
                 texto: "Defendo a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: "Durante a discussão, você enfatizou a adaptação do mercado e como a IA pode potencializar o trabalho humano."
             }
-        ]
+        ],
+                proxima: 3,
     },
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
@@ -49,7 +52,8 @@ export const perguntas = [
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
                 afirmacao: "Você optou por experimentar na prática a geração de arte por inteligência artificial para dar forma à sua visão."
             }
-        ]
+        ],
+                proxima: 4,
     },
     {
         enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
